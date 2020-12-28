@@ -1,5 +1,6 @@
 # CCET-IPD
 Mobile app to register entries for any competition and record project realted documents, description, idea, etc
+For More info, read this [about app](https://github.com/akill-coder/CCET-IPD/blob/main/About%20app.pdf)
 
 
 ### About
