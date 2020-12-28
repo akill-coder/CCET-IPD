@@ -1,0 +1,381 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.agel.kumar.akhil.doma.ccet_ipd.Register">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/yes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="25dp">
+
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/backcolor"
+            android:fadeScrollbars="false"
+            android:padding="9dp"
+            android:scrollbarStyle="insideInset"
+            android:verticalScrollbarPosition="defaultPosition"
+            app:layout_constraintBottom_toTopOf="@+id/textImageName"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/userdetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/stu1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Student 1*" />
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Name (Leader)"
+                    android:inputType="textPersonName"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Father's Name"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Roll Number"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Branch"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editText5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="College"
+                    android:inputType="textPersonName" />
+
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:ems="10"
+                    android:hint="E-mail"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Phone"
+                    android:inputType="phone" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <!-- <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content" />
+     -->
+
+
+                <CheckBox
+                    android:id="@+id/stu2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Student 2" />
+
+                <EditText
+                    android:id="@+id/editTextq2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Name"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editText22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Father's Name"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editText32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Roll Number"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editText42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Branch"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editText52"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="College"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editText62"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:ems="10"
+                    android:hint="E-mail"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/editText72"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Phone"
+                    android:inputType="phone" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <!-- <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content" />-->
+
+
+                <CheckBox
+                    android:id="@+id/stu3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Student 3" />
+
+                <EditText
+                    android:id="@+id/editTextq3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Name"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editText23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Father's Name"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editText33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Roll Number"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editText43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Branch"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editText53"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="College"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editText63"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:ems="10"
+                    android:hint="E-mail"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/editText73"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Phone"
+                    android:inputType="phone" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="8dp"
+
+            android:background="@drawable/mybutton"
+            android:text="   Attach  File   "
+            app:layout_constraintBottom_toTopOf="@+id/button3"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <!--android:onClick="btnBrowse_Click"-->
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+
+            android:background="@drawable/mybutton"
+            android:text="Submit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+
+        <TextView
+            android:id="@+id/filename"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/backcolor"
+            android:gravity="center"
+            android:padding="6dp"
+            android:scrollHorizontally="false"
+            android:scrollbars="vertical"
+            android:text="  .pdf file"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/button3"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toRightOf="@+id/button2"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mentor"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+        <EditText
+            android:id="@+id/textImageName"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/backcolor"
+            android:ems="10"
+            android:hint="Project Title"
+            android:inputType="textPersonName"
+            android:padding="6dp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/mentor"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <EditText
+            android:id="@+id/mentor"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/backcolor"
+            android:ems="10"
+            android:hint="Mentor's Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <EditText
+            android:id="@+id/group"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/backcolor"
+            android:ems="10"
+            android:hint="Year (1/2/3)"
+            android:inputType="phone"
+            android:padding="6dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/mentor"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toRightOf="@+id/mentor"
+            app:layout_constraintRight_toRightOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

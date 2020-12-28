@@ -1,0 +1,72 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.agel.kumar.akhil.doma.ccet_ipd.Rules">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="RULES FOR PARTICIPATION"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+
+
+                android:text="The words innovation and invention overlap semantically but are really quite distinct.  Invention can refer to a type of musical composition, a falsehood, a discovery, or any product of the imagination. The sense of invention most likely to be confused with innovation is “a device, contrivance, or process originated after study and experiment,” usually something which has not previously been in existence.  Innovation, for its part, can refer to something new or to a change made to an existing product, idea, or field. One might say that the first telephone was an invention,The words innovation and invention overlap semantically but are really quite distinct.\n
+
+
+
+\nInvention can refer to a type of musical composition, a falsehood, a discovery, or any product of the imagination. The sense of invention most likely to be confused with innovation is “a device, contrivance, or process originated after study and experiment,” usually something which has not previously been in existence.\n
+
+\nInnovation, for its part, can refer to something new or to a change made to an existing product, idea, or field. One might say that the first telephone was an invention, the first cellular telephone either an invention or an innovation, and the first smartphone an innovation. the first cellular telephone either an invention or an innovation, and the first smartphone an innovation.The words innovation and invention overlap semantically but are really quite distinct.
+
+\n\nInvention can refer to a type of musical composition, a falsehood, a discovery, or any product of the imagination. The sense of invention most likely to be confused with innovation is “a device, contrivance, or process originated after study and experiment,” usually something which has not previously been in existence.
+
+\n\nInnovation, for its part, can refer to something new or to a change made to an existing product, idea, or field. One might say that the first telephone was an invention, the first cellular telephone either an invention or an innovation, and the first smartphone an innovation.Product design is concerned primarily with the relationship between products, systems and those who use them. The product design programme at NID inculcates user-centric approach and processes. &#160;
+\n\nResponsibility and concern towards the social, physical and ecological environments is emphasized in the process of developing innovative ideas. The product design programme assimilates inputs in diverse domains such as human factors, cognitive ergonomics, form studies, studio skills, advanced cad, research methods, design management, materials and manufacturing processes and social sciences. Emphasis is on process centric approach which shapes a student’s education through participation and teamwork. Design projects form the core of a product designer’s education, with gradual increase in level of complexity and cover broad areas that product designers are likely to encounter in their professional careers. "
+
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "783559295544",
+    "firebase_url": "https://ipdccet.firebaseio.com",
+    "project_id": "ipdccet",
+    "storage_bucket": "ipdccet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783559295544:android:60c3843d456fb55a",
+        "android_client_info": {
+          "package_name": "com.kumar.akhil.doma.demoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783559295544-gm8jd8rsemgm4aidkuqucr2bavhbmile.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kumar.akhil.doma.demoapp",
+            "certificate_hash": "edd3dc9173afc39458c675d7da664cb7410a5b2b"
+          }
+        },
+        {
+          "client_id": "783559295544-osj0jihousbj05ma82kitdcrrpeumpmh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9uOs5ZbTzbZPiDTssL5kp2p-7YhDnGJE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783559295544-osj0jihousbj05ma82kitdcrrpeumpmh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
