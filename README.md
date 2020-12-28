@@ -12,9 +12,7 @@ For  an  event  to  organize  well,  participants  are  must  and  for  that  be
 - Database: *Firebase*
 
 ### Class Diagram
-
-
-
+![Class Diagram](https://github.com/akill-coder/CCET-IPD/blob/main/Capture232.PNG)
 
 
 
